@@ -59,6 +59,13 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+#use devise for user authentication
 gem 'devise', '4.4.0'
+
+#use stripe for handling payments
+gem 'stripe', '1.57.1'
+
+#use figaro to hide secret keys
+gem 'figaro','1.1.1'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
